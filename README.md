@@ -27,11 +27,11 @@ The objective of this project is to simulate a simplified operating system that 
 The input consists of:
 
 The number of processes (NumProcs) and the quantum length (Quantum).
-For each process:
-Process Name: Name of the process.
-Size: The number of operations (primitives) in the process description.
-Priority: The priority value of the process (used for Priority Scheduling).
-Sequence of Primitives: DOOP, BLOCK, LOOP, END, HALT, SEND, RECV.
+- For each process:
+1. Process Name: Name of the process.
+2. Size: The number of operations (primitives) in the process description.
+3. Priority: The priority value of the process (used for Priority Scheduling).
+4. Sequence of Primitives: DOOP, BLOCK, LOOP, END, HALT, SEND, RECV.
 
 #### Sample input and output
 ```
